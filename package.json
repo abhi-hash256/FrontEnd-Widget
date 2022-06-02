@@ -1,0 +1,26 @@
+{
+  "name": "react-lib",
+  "version": "0.1.0",
+  "description": "A custom react library",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Abhishek Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@types/react": "^18.0.10",
+    "rollup": "^2.75.5",
+    "rollup-plugin-dts": "^4.2.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.2"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
